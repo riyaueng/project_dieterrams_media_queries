@@ -1,0 +1,60 @@
+@media only screen and (min-width: 768px) {
+  .wrapper_responsive {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  /* * ---------- Section-Article ----------- */
+
+  h3 {
+    font-size: 16px;
+    padding: 2rem 3rem;
+    position: absolute;
+  }
+
+  h2 {
+    font-size: 40px;
+    padding: 3rem;
+  }
+
+  .section_article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 50vw;
+    min-height: 100vh;
+  }
+
+  /* * ---------- Section-Photo ----------- */
+
+  .section_photo {
+    min-width: 50vw;
+    min-height: 100vh;
+  }
+
+  /* * ---------- Footer ----------- */
+
+  .arrow_left,
+  .arrow_right {
+    font-size: 20px;
+    padding: 2rem 2.3rem;
+  }
+
+  .footer_social a img {
+    max-width: 22px;
+    max-height: 22px;
+  }
+
+  .footer_social a:first-of-type {
+    margin-right: 1.2rem;
+  }
+
+  .footer caption {
+  }
+
+  .footer_caption h4 {
+    font-size: 16px;
+    padding-top: 0.7rem;
+  }
+}

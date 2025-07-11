@@ -23,16 +23,16 @@ p {
   color: #777;
 }
 
-/* ------------------ MOBILE ------------------- */
-
-/* * ---------- Section-Article ----------- */
-
 h3 {
   font-family: "Roboto-Bold", "sans-serif";
   font-size: 14px;
   text-transform: uppercase;
   padding: 1rem 3rem;
 }
+
+/* ------------------ MOBILE ------------------- */
+
+/* * ---------- Section-Article ----------- */
 
 h2 {
   font-family: "Roboto-Bold", "sans-serif";
@@ -41,13 +41,14 @@ h2 {
 }
 
 .section_article {
-  min-height: 60vh;
+  min-height: 50vh;
+  max-height: 100vw;
 }
 
 .section_article p {
-  max-width: 80vw;
+  max-width: 28rem;
   line-height: 1.5rem;
-  padding: 0 3rem;
+  padding: 0 3rem 3rem;
 }
 
 h4 {
@@ -102,7 +103,7 @@ footer {
 
 .arrow_left,
 .arrow_right {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Roboto-Bold", "sans-serif";
   padding: 1.5rem 1.7rem;
 }
@@ -115,26 +116,22 @@ footer {
 
 .footer_social a img {
   max-width: 16px;
-  min-height: 16px;
+  max-height: 16px;
 }
 
 .footer_social a {
-  margin-right: 0.5rem;
+  margin-right: 0.4rem;
 }
 
 /*  ---------- Middle ----------- */
 
 .arrow_left {
   color: black;
-  font-size: 18px;
-  font-family: "Roboto-Bold", "sans-serif";
 }
 
 .arrow_right {
   background-color: black;
   color: white;
-  font-size: 18px;
-  font-family: "Roboto-Bold", "sans-serif";
 }
 
 /*  ---------- Right ----------- */
