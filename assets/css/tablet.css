@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
   .wrapper_responsive {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -9,13 +9,12 @@
 
   h3 {
     font-size: 16px;
-    padding: 2rem 3rem;
+    padding: 1.8rem 3rem;
     position: absolute;
   }
 
   h2 {
     font-size: 40px;
-    padding: 3rem;
   }
 
   .section_article {
@@ -39,6 +38,10 @@
   .arrow_right {
     font-size: 20px;
     padding: 2rem 2.3rem;
+  }
+
+  .footer_social {
+    margin-top: 0.5rem;
   }
 
   .footer_social a img {
